@@ -1,8 +1,7 @@
-The **Sample_Data**  directory in the project git repository is the place to store **SAMPLE** datasets which should be of small size, **NOT** the entire datasets. If your client does not allow you to store even the sample data on the github repository, if possible, store a sample dataset with all confidential fields hashed. If still not allowed, please do not store sample data here. But, please still fill in the table in each sub-directory. 
+Le répertoire **Sample_Data** dans le dépôt git du projet est l'endroit pour stocker des **échantillons** de données qui devraient être de petite taille, **PAS** les ensembles de données entiers. Si votre client ne vous autorise pas à stocker même les échantillons de données sur le dépôt github, si possible, stockez un échantillon de données avec tous les champs confidentiels hachés. Si cela n'est toujours pas autorisé, ne stockez pas d'échantillon de données ici. Veuillez toutefois remplir le tableau dans chaque sous-répertoire. 
 
-The small sample datasets can be used to make your data preprocessing, feature engineering, or modeling scripts runnable. It can be helpful to quickly run the scripts that process or model the data, and understand what the scripts are doing.  
+Les petits échantillons de données peuvent être utilisés pour faire fonctionner vos scripts de prétraitement des données, d'ingénierie des caractéristiques ou de modélisation. Il peut être utile d'exécuter rapidement les scripts qui traitent ou modélisent les données, et de comprendre ce que font les scripts.  
 
-In each directory, there is a markdown file, which lists all datasets in each directory. Please provide the link to the full dataset in case one wants to access the full dataset. 
-
+Dans chaque répertoire, il y a un fichier markdown, qui liste tous les ensembles de données dans chaque répertoire. Veuillez fournir le lien vers l'ensemble des données au cas où l'on souhaiterait accéder à l'ensemble des données. 
 
 

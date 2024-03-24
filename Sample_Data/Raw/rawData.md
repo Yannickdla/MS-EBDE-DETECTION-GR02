@@ -1,7 +1,7 @@
-## List of Raw Datasets
+## Liste des jeux de données brutes
 
 
-| Raw Dataset Name | Link to the Full Dataset   | Full Dataset Size (GB)  |
+| Nom du jeu de données brutees | Lien vers le jeu de données   | Taille du jeu de données (GB)  |
 | ---:| ---: | ---: |
 | Raw Dataset 1 | [link](https://urlz.fr/q0hR) | 27,8 |
 
