@@ -1,54 +1,54 @@
-# Project Charter
+# Charte du projet
 
 ## Business background
 
-* Who is the client, what business domain the client is in.
-* What business problems are we trying to address?
+* Les prospects que nous avons pour ce projet sont les ministères des armées, de l'économie et des finances et de la culture
+* On adresse un problème de détections d'anomalies dans les tweets pour effectuer de la détection de communautés
 
-## Scope
-* What data science solutions are we trying to build?
-* What will we do?
-* How is it going to be consumed by the customer?
+## Champ d'application
+
+* On essaye d'appliquer les techniques de détection d'anomalies.
+* On va detecter des communautés dans le jeu de données,
+* Le modèle final sera déployé chez le client
 
 ## Personnel
-* Who are on this project:
-	* Microsoft:
-		* Project lead
-		* PM
-		* Data scientist(s)
-		* Account manager
-	* Client:
-		* Data administrator
-		* Business contact
-	
+
+* Equipe UTT:
+
+  * Project lead
+	* Data scientists
+	* Data Analysts
+	* Data Engineer
+  
+* Client:
+
+	* Contact UTT
+
 ## Metrics
+
 * What are the qualitative objectives? (e.g. reduce user churn)
 * What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
+* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%)
 * What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
 * How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
 
 ## Plan
-* Phases (milestones), timeline, short description of what we'll do in each phase.
+
+* Dans la phase une du projet on a séparé l'équipe projet en 3 : une partie qui travaille sur une méthode de lecture optimisée du jeu de données, une autre qui commence à faire une analyse exploratoire et une autre qui commençait la documentation
+* Dans la seconde partie du projet, le groupe s'est concentré pour faire un état de l'art sur les techniques de détection d'anomalies et sur la documentations de l'API de X.
+* Dans la dernière partie, on est passé à l'étape de modélisation
 
 ## Architecture
-* Data
-  * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
-* Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
-  * all the data, 
-  * after some pre-aggregation on-prem,
-  * Sampled data enough for modeling 
 
-* What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
-  * AzureML for modeling and web service operationalization
-* How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
-  * How will the customer use the model results to make decisions
-  * Data movement pipeline in production
-  * Make a 1 slide diagram showing the end to end data flow and decision architecture
-    * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
+* Jeu de données
+  * On a en entrée un fichier de données brut
+
+* Les ressources utilisées
+  
+  * Python est le langage qui a été utilisé pour le construction , l'aggregation et la modélisation dans notre projet
+  * les premieres opérations étaient éffectuées en local mais pour travailler sur tout le jeu de données nous avons utilisé google colab.
 
 ## Communication
-* How will we keep in touch? Weekly meetings?
-* Who are the contact persons on both sides?
+
+* On garde le contact par le biais de notre groupe sur teams. On se programme des réunions bimensuelles pour discuter de l'avancement.
+* Notre contact est notre encadrant académique
