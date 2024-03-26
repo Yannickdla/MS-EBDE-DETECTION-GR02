@@ -1,22 +1,16 @@
 # Model Report
-_A report to provide details on a specific experiment (model) - possibly one of many_
 
-If applicable, the Automated Modeling and Reporting utility developed by Microsoft TDSP team can be used to generate reports, which can provide contents for most of the sections in this model report. 
+
 ## Analytic Approach
-* What is target definition
-* What are inputs (description)
-* What kind of model was built?
+
+* Le but de ce modèle est de pouvoir détecter des communautés dans le jeu de données qui est passé par le isolation forest
+* Pour ce faire nous avons choisi l'algorithme de détection de communauté de louvain.
+* Notre Algorithme reçoit en entrée un graphe qui est généré à partir de nos données.
+
 
 ## Model Description
 
-* Models and Parameters
-
-	* Description or images of data flow graph
-  		* if AzureML, link to:
-    		* Training experiment
-    		* Scoring workflow
-	* What learner(s) were used?
-	* Learner hyper-parameters
+* 
 
 
 ## Results (Model Performance)
