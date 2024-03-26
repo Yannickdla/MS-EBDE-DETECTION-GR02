@@ -15,7 +15,7 @@
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
-| Processed Dataset 1 | [Dataset1](link/to/dataset1/report) | [Python_Script1.py](link/to/python/script/file/in/Code) | [Processed Dataset 1 Report](link/to/report1)|
+| Processed Dataset 1 | [Dataset1] | [Python_Script1.py] | [Processed Dataset 1 Report](link/to/report1)|
 
 
 * Processed Data1 summary. Dans cette étape nous avons developpé un algorithmes pour extraire les variables les plus pertinentes pour notre étude.
@@ -23,7 +23,7 @@
 ## Feature Sets
 
 | Feature Set Name | Input Dataset(s)   | Feature Engineering Tools/Scripts | Link to Report |
-| ---:| ---: | ---: | ---: | 
-| Feature Set  | [Dataset1](link/to/dataset1/report), [Processed Dataset2](link/to/dataset2/report) | [R_Script2.R](link/to/R/script/file/in/Code) | [Feature Set1 Report](link/to/report1)|
+| ---:| ---: | ---: | ---: |
+| Feature Set  | [Dataset1] , [Processed Dataset2] | [R_Script2.R](link/to/R/script/file/in/Code) | [Feature Set1 Report](link/to/report1)|
 
-* Feature Set1 summary. Dans cette étape nous avons ajouté les informations sur les hashtags, le nombre de hashtags par seconde et la cooccurence des hashtags
+* Feature Set1 summary. Dans cette étape nous avons ajouté les informations sur les hashtags, le nombre de hashtags par seconde et la cooccurence des hashtags. Ce code est disponible dans le dossier Code/Data_acquisition_and_Understanding.
