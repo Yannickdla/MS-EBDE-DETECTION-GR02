@@ -1,6 +1,6 @@
-# Exit Report of Project <X> for Customer <Y>
+# Exit Report of Project 
 
-Instructions: Template for exit criteria for data science projects. This is concise document that includes an overview of the entire project, including details of each stage and learning. If a section isn't applicable (e.g. project didn't include a ML model), simply mark that section as "Not applicable". Suggested length between 5-20 pages. Code should mostly be within code repository (not in this document).
+Les informations globales sur le projet sont contenues dane le livrable final qui est dans le repertoire 
 
 Customer: <Enter Customer Name\>
 
