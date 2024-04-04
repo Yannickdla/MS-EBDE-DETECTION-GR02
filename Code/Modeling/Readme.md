@@ -1,3 +1,3 @@
 # This folder contains code for modeling and related activities (such as feature engineering, model evaluation etc.)
 
-You can add detailed description in this markdown related to your specific data science project.
+le notebook de ce repertoire permet d'expliquer les grandes lignes du projet 
